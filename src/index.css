@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d1d20;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes glow {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgb(205, 75, 220);
+    box-sizing: 1rem;
+  }
+  50% {
+    box-shadow: 0 0 20px rgb(217, 204, 98);
+  }
+}
+
+.glow-border {
+  animation: glow 2s infinite;
+  border: 1rem solid transparent;
+}
+
+@keyframes grow {
+  0% {
+    font-size: 3rem;
+  }
+  100% {
+    font-size: 3.5rem;
+  }
+}
+
+.animated-grow:hover {
+  /* animation: grow 0.2s ease-in-out; */
+  transition: all 50ms ease-in-out 0s;
+  text-decoration: underline;
+}
