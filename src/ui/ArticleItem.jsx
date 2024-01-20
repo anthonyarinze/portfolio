@@ -4,6 +4,7 @@ import Microlink from "@microlink/react";
 const StyledMicrolink = styled(Microlink)`
   font-family: inherit;
   max-width: 100%;
+  width: 50%;
   border-radius: 0.42857em;
 `;
 
