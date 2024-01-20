@@ -23,11 +23,11 @@
 @keyframes glow {
   0%,
   100% {
-    box-shadow: 0 0 10px rgb(205, 75, 220);
+    box-shadow: 0 0 10px #51c9bf;
     box-sizing: 1rem;
   }
   50% {
-    box-shadow: 0 0 20px rgb(217, 204, 98);
+    box-shadow: 0 0 20px #132d42;
   }
 }
 
