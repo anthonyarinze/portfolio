@@ -18,4 +18,3 @@ git commit -m "$commit_message"
 git push origin main
 
 echo "Pushed changes to your git repo with commit message: $commit_message"
-echo "hello world"
