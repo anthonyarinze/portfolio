@@ -37,6 +37,20 @@ export const recentWorkExperience = [
       "Developed and integrated UI services with the backend API service to fetch data and perform transactions, with code optimization, abstraction and reusability as priorities.",
     techUsed: ["Flutter", "Postman", "Riverpod"],
   },
+  {
+    date: "DECEMBER - NOVEMBER 2021-2022",
+    title: "Software Engineer ● Calcon Systems Global Solutions",
+    about:
+      "Collaborated with the development team to design and develop high-quality mobile applications using the Flutter framework. Developed, tested, and maintained efficient, reusable, and reliable code.",
+    techUsed: ["Flutter", "Provider", "Riverpod", "Dio"],
+  },
+  {
+    date: "SEPTEMBER - DECEMBER 2020",
+    title: "Software Engineer Intern ● Secure Records Management Solutions",
+    about:
+      "Collaborated with team members to streamline data entry processes and improve efficiency. Collaborated with team members to ensure high-quality, user-friendly apps. Worked with design team to implement visual elements and ensure consistency with branding and UX guidelines",
+    techUsed: ["Flutter"],
+  },
 ];
 
 export const articles = [

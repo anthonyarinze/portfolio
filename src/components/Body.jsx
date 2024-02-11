@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Writing from "./Writing";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Playlists from "./Playlists";
 
 const Body = () => {
   return (
@@ -12,6 +13,7 @@ const Body = () => {
       <Projects />
       <Experience />
       <Writing />
+      <Playlists />
       <Contact />
       <Footer />
     </main>
