@@ -31,7 +31,7 @@ export const projectData = [
 
 export const recentWorkExperience = [
   {
-    date: "JULY - AUGUST 2023",
+    date: "JUNE - AUGUST 2023",
     title: "Flutter Developer ● The Shawn Exchange",
     about:
       "Developed and integrated UI services with the backend API service to fetch data and perform transactions, with code optimization, abstraction and reusability as priorities.",
