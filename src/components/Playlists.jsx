@@ -16,16 +16,6 @@ const Playlists = () => {
     >
       <h2 className={headerStyles}>My Playlists</h2>
       <iframe
-        style={{ borderRadius: "12px", marginBottom: "2rem" }}
-        src="https://open.spotify.com/embed/playlist/5ECoWzCSw9PZsOmbRbe4ap?utm_source=generator"
-        width="100%"
-        height="352"
-        frameBorder="0"
-        allowFullScreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      ></iframe>
-      <iframe
         style={{ borderRadius: "12px" }}
         src="https://open.spotify.com/embed/playlist/0BImrgynnyD6aL1nv8xwSe?utm_source=generator"
         width="100%"
