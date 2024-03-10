@@ -1,13 +1,32 @@
 import resort1 from "../assets/resort/resort1.png";
 import resort2 from "../assets/resort/resort2.png";
 import resort3 from "../assets/resort/resort3.png";
-import resort4 from "../assets/resort/resort4.png";
 import gym1 from "../assets/gym/gym1.png";
 import gym2 from "../assets/gym/gym2.png";
 import gym3 from "../assets/gym/gym3.png";
-import gym4 from "../assets/gym/gym4.png";
+import manga1 from "../assets/mangapulse/manga1.png";
+import manga2 from "../assets/mangapulse/manga2.png";
+import manga3 from "../assets/mangapulse/manga3.png";
 
 export const projectData = [
+  {
+    onClick: () => {
+      window.open("https://mangapulse.netlify.app/", "_blank");
+    },
+    title: "Manga Pulse",
+    about:
+      "A manga & anime tracking site to track your read, reading or want to read manga, get recommendations and details about your favorites.",
+    techUsed: [
+      "React JS",
+      "Redux",
+      "React Hook Form",
+      "Styled Components",
+      "Supabase",
+      "React Query",
+      "React Router",
+    ],
+    slides: [manga1, manga2, manga3],
+  },
   {
     onClick: () => {
       window.open("https://saintsresort.netlify.app/", "_blank");
@@ -15,8 +34,16 @@ export const projectData = [
     title: "Saint's Resort",
     about:
       "Resort booking and checking in/out site built with react, styled components and typescript.",
-    techUsed: ["React JS", "TypeScript", "Styled Components", "Supabase"],
-    slides: [resort1, resort2, resort3, resort4],
+    techUsed: [
+      "React JS",
+      "TypeScript",
+      "Styled Components",
+      "React Router",
+      "React Query",
+      "React Hook Form",
+      "Supabase",
+    ],
+    slides: [resort1, resort2, resort3],
   },
   {
     onClick: () => {
@@ -25,7 +52,7 @@ export const projectData = [
     title: "Saint's Gym",
     about: "Gym membership site built with react, tailwind and typescript.",
     techUsed: ["React JS", "TypeScript", "TailwindCSS"],
-    slides: [gym1, gym2, gym3, gym4],
+    slides: [gym1, gym2, gym3],
   },
 ];
 
