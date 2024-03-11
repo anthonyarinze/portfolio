@@ -24,12 +24,16 @@ const Contact = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.25 }}
         variants={{
           hidden: { opacity: 0, x: -50 },
           visible: { opacity: 1, x: 0 },
         }}
-      ></motion.div>
+      >
+        <p className="mb-2 mt-20 text-2xl font-semibold text-white md:mb-5 md:mt-28">
+          Connect
+        </p>
+      </motion.div>
 
       {/* FORM AND IMAGE */}
       <div className="mt-5 gap-16 md:flex md:justify-between">
@@ -38,15 +42,12 @@ const Contact = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.25 }}
           variants={{
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <p className="mb-2 mt-20 text-2xl font-semibold text-white md:mb-5 md:mt-28">
-            Connect
-          </p>
           <form
             target="_blank"
             onSubmit={onSubmit}
