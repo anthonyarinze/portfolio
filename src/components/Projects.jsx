@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <motion.section
-      className="mt-10"
+      className="mt-10 h-auto"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
