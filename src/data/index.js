@@ -75,7 +75,7 @@ export const recentWorkExperience = [
     date: "SEPTEMBER - DECEMBER 2020",
     title: "Software Engineer Intern ● Secure Records Management Solutions",
     about:
-      "Collaborated with team members to streamline data entry processes and improve efficiency. Collaborated with team members to ensure high-quality, user-friendly apps. Worked with design team to implement visual elements and ensure consistency with branding and UX guidelines",
+      "Collaborated with team members to streamline data entry processes and improve efficiency. Collaborated with team members to ensure high-quality, user-friendly apps. Worked with design team to implement visual elements and ensure consistency with branding and UX guidelines.",
     techUsed: ["Flutter"],
   },
 ];

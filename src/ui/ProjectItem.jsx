@@ -14,8 +14,8 @@ const ProjectItem = ({ onClick, title, about, techUsed, slides }) => {
       <div className="space-y-5 md:w-4/6">
         <button
           onClick={onClick}
-          className="cursor-pointer text-[1.15rem] font-semibold text-white transition-all duration-300 ease-in-out
-           hover:text-[1.15rem] hover:leading-[1.65rem] hover:text-card-text md:text-xl"
+          className="flex cursor-pointer items-center gap-1 text-[1.15rem] font-semibold text-white
+           transition-all duration-300 ease-in-out hover:text-[1.2rem] hover:leading-[1.65rem] hover:text-card-text md:text-xl"
         >
           {title} <OpenInNew sx={iconStyles} />
         </button>
