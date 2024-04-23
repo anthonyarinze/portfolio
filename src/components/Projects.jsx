@@ -1,21 +1,10 @@
 import { headerStyles } from "../constants/headerStyle";
 import { projectData } from "../data";
 import ProjectItem from "../ui/ProjectItem";
-import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <motion.section
-      className="mt-10 h-auto"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0.25 }}
-      variants={{
-        hidden: { opacity: 0, x: -50 },
-        visible: { opacity: 1, x: 0 },
-      }}
-    >
+    <section className="mt-10 h-auto">
       <h2 className={headerStyles}>Projects</h2>
       {projectData.map((data, index) => (
         <ProjectItem
@@ -27,7 +16,7 @@ const Projects = () => {
           key={index}
         />
       ))}
-    </motion.section>
+    </section>
   );
 };
 

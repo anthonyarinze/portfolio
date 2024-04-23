@@ -1,16 +1,6 @@
-import { motion } from "framer-motion";
-
 const Intro = () => {
   return (
-    <motion.section
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0.25 }}
-      variants={{
-        hidden: { opacity: 0, y: 50 },
-        visible: { opacity: 1, y: 0 },
-      }}
-    >
+    <section>
       <h1 className="text-4xl font-bold lg:text-5xl">いらっしゃい (Welcome)</h1>
       <div className="mt-5 md:text-xl">
         Hi, I&apos;m Anthony, a software engineer specializing in the React and
@@ -21,7 +11,7 @@ const Intro = () => {
         possible what you see today won&apos;t be what you see tomorrow. Do
         enjoy the suspense ;)
       </div>
-    </motion.section>
+    </section>
   );
 };
 

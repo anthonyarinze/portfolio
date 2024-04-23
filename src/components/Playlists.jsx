@@ -1,19 +1,8 @@
-import { motion } from "framer-motion";
 import { headerStyles } from "../constants/headerStyle";
 
 const Playlists = () => {
   return (
-    <motion.section
-      className="mt-10"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.5 }}
-      transition={{ duration: 0.25 }}
-      variants={{
-        hidden: { opacity: 0, x: -50 },
-        visible: { opacity: 1, x: 0 },
-      }}
-    >
+    <section className="mt-10">
       <h2 className={headerStyles}>My Playlists</h2>
       <iframe
         style={{ borderRadius: "12px" }}
@@ -25,7 +14,7 @@ const Playlists = () => {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
-    </motion.section>
+    </section>
   );
 };
 

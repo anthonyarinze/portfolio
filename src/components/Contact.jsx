@@ -1,5 +1,4 @@
 import { useForm } from "react-hook-form";
-import { motion } from "framer-motion";
 import { inputStyles } from "../constants/inputStyles";
 
 const Contact = () => {
@@ -19,35 +18,15 @@ const Contact = () => {
   return (
     <section className="items-start justify-start">
       {/* HEADING */}
-      <motion.div
-        className="flex items-start justify-start"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.25 }}
-        variants={{
-          hidden: { opacity: 0, x: -50 },
-          visible: { opacity: 1, x: 0 },
-        }}
-      >
+      <div className="flex items-start justify-start">
         <p className="mb-2 mt-20 text-2xl font-semibold text-white md:mb-5 md:mt-28">
           Connect
         </p>
-      </motion.div>
+      </div>
 
       {/* FORM AND IMAGE */}
       <div className="mt-5 gap-16 md:flex md:justify-between">
-        <motion.div
-          className="basis-1/2 md:mt-0"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          transition={{ duration: 0.25 }}
-          variants={{
-            hidden: { opacity: 0, y: 50 },
-            visible: { opacity: 1, y: 0 },
-          }}
-        >
+        <div className="basis-1/2 md:mt-0">
           <form
             target="_blank"
             onSubmit={onSubmit}
@@ -110,7 +89,7 @@ const Contact = () => {
               Send Me A Message
             </button>
           </form>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
