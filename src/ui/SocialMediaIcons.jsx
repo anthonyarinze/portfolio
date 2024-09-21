@@ -1,4 +1,4 @@
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import { GitHub, LinkedIn, Description } from "@mui/icons-material";
 
 const iconStyle = {
   fontSize: "2.25rem",
@@ -24,6 +24,14 @@ const SocialMediaIcons = () => {
         href="https://www.linkedin.com/in/anthony-arinze-a5544321b/"
       >
         <LinkedIn sx={iconStyle} />
+      </a>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        className="transition duration-300 hover:scale-125"
+        href="https://flowcv.com/resume/gb915i0fcv"
+      >
+        <Description sx={iconStyle} />
       </a>
     </div>
   );

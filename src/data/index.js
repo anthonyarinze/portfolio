@@ -58,6 +58,13 @@ export const projectData = [
 
 export const recentWorkExperience = [
   {
+    date: "JULY - PRESENT 2024",
+    title: "Technical Support Advocate ● TekExperts",
+    about:
+      "Provided global support for users facing issues with Microsoft Office, Microsoft 365, and Windows products. Responsibilities included diagnosing and resolving software, configuration, and account-related problems, while offering efficient troubleshooting through remote desktop tools. Consistently ensured user satisfaction by delivering timely solutions and maintaining detailed logs of each case using Microsoft's internal ticketing system.",
+    techUsed: ["M365", "MS Office", "Windows"],
+  },
+  {
     date: "JUNE - AUGUST 2023",
     title: "Flutter Developer ● The Shawn Exchange",
     about:
