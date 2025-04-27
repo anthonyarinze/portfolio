@@ -7,6 +7,9 @@ import gym3 from "../assets/gym/gym3.png";
 import manga1 from "../assets/mangapulse/manga1.png";
 import manga2 from "../assets/mangapulse/manga2.png";
 import manga3 from "../assets/mangapulse/manga3.png";
+import grimoire1 from "../assets/grimoire/grimoire1.png";
+import grimoire2 from "../assets/grimoire/grimoire2.png";
+import grimoire3 from "../assets/grimoire/grimoire3.png";
 
 export const projectData = [
   {
@@ -53,6 +56,14 @@ export const projectData = [
     about: "Gym membership site built with react, tailwind and typescript.",
     techUsed: ["React JS", "TypeScript", "TailwindCSS"],
     slides: [gym1, gym2, gym3],
+  },
+  {
+    onClick: () => window.open("https://grimoirebooks.vercel.app/", "_blank"),
+    title: "Grimoire",
+    about:
+      "Book exploration and library management site built with NextJS, tailwind and typescript.",
+    techUsed: ["Next JS", "TypeScript", "TailwindCSS", "React Query", "Redux"],
+    slides: [grimoire1, grimoire2, grimoire3],
   },
 ];
 
